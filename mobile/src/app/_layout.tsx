@@ -2,6 +2,7 @@
 
 import { Stack } from "expo-router"
 import { colors } from "@/styles/theme"
+import { GestureHandlerRootViwe } from "react-native-gesture-handler"
 
 import { 
     useFonts,
@@ -27,6 +28,7 @@ export default function Layout () {
     } 
 
     return <Stack 
+    <GestureHandlerRootViwe>
     screenOptions={{ 
         headerShown: false,
         contentStyle: { backgroundColor: colors.gray[100] },

@@ -1,7 +1,9 @@
 import { View } from "react-native";
 
+import { Place, PlaceProps } from "../place"
+
 type Props = {
-    data: []
+    data: PlaceProps[]
 }
 
 export function Places({ data }: Props) {
